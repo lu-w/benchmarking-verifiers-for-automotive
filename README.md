@@ -22,4 +22,4 @@ To benchmark [CBMC](https://github.com/diffblue/cbmc) on all C files in `input_d
 
 `./benchmark.sh -t 1 -m 1 -c "cbmc" -i input_dir`
 
-Results will be written to `./cbmc_1GB_1m.csv`.
+Results will be written to `./cbmc_1GB_1m.csv`. Outputs (verification run logs, witnesses) can be found in `benchmark_output`.
