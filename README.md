@@ -9,3 +9,9 @@ Contains the benchmarking scripts used for the paper "Benchmarking Software Mode
 `benchmark_core.sh` contains the core functionality of the benchmarking process.
 
 `benchmark_verifier_output_interpretation.sh` outsources the output interpretation as it is rather lengthy.
+
+## Dependencies
+
+The benchmark script has some dependencies.
+* `timeout` https://github.com/pshved/timeout (expected in $PATH)
+* `/usr/bin/time`
