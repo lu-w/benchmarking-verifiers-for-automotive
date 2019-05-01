@@ -15,6 +15,7 @@ Contains the benchmarking scripts used for the paper "Benchmarking Software Mode
 The benchmark script has some dependencies.
 * `timeout` https://github.com/pshved/timeout (expected in `$PATH`)
 * `/usr/bin/time`
+* `mailx` if mail notifications are enabled
 
 ## Example usage
 
