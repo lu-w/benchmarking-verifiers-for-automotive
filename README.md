@@ -13,7 +13,7 @@ Contains the benchmarking scripts used for the paper "Benchmarking Software Mode
 ## Dependencies
 
 The benchmark script has some dependencies.
-* `timeout` https://github.com/pshved/timeout (expected in $PATH)
+* `timeout` https://github.com/pshved/timeout (expected in `$PATH`)
 * `/usr/bin/time`
 
 ## Example usage
@@ -22,4 +22,4 @@ To benchmark [CBMC](https://github.com/diffblue/cbmc) on all C files in `input_d
 
 `./benchmark.sh -t 1 -m 1 -c "cbmc" -i input_dir`
 
-Results will be written to `./cbmc_1GB_1m.csv`. Outputs (verification run logs, witnesses) can be found in `benchmark_output`.
+Note that the CBMC binary should be in `$PATH`. Results will be written to `./cbmc_1GB_1m.csv`. Outputs (verification run logs, witnesses) can be found in `benchmark_output`.
