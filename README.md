@@ -1,6 +1,6 @@
 # Benchmarking Software Model Checkers on Automotive Code
 
-Contains the benchmarking scripts used for the paper "Benchmarking Software Model Checkers on Automotive Code", to be published in ATVA 2019.
+Contains the benchmarking scripts used for the paper "Benchmarking Software Model Checkers on Automotive Code", to be published in ATVA 2019. This tool is specialized to our specific use case and most likely won't generalize well into other environments.
 
 ## Structure
 
